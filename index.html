@@ -9,12 +9,9 @@
 </head>
 
 <body>
-  
-  <!-- Let's add Vue here -->
-  <div id="app" v-bind:title="message">
+  <div id="app" :title="message">
     {{ message }}
   </div>
-  
   
   <script>
     const app = new Vue({
